@@ -1,9 +1,16 @@
 /* Reset and Base Styles */
+
+:root {
+    --primary-color: #ff6b6b;
+    --secondary-color: #333;
+    --linear-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 
 html {
     scroll-behavior: smooth;
@@ -137,7 +144,7 @@ body {
 .nav-logo .logo-text {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #333;
+    color: linear-gradient(to right, #667eea , #764ba2);
 }
 
 .nav-menu {
@@ -291,6 +298,12 @@ body {
 .line-2 {
     animation-delay: 0.7s;
 }
+
+.text-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
 
 @keyframes slideUp {
     to {
