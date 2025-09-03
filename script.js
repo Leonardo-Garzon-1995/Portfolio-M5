@@ -381,6 +381,7 @@ window.addEventListener('resize', () => {
 
 // Easter egg: Konami code
 let konamiCode = [];
+
 const konamiSequence = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'KeyB', 'KeyA'];
 
 document.addEventListener('keydown', (e) => {
