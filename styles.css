@@ -700,6 +700,10 @@ section {
     font-weight: 500;
 }
 
+.btn-project {
+    margin-top: 20px;
+}
+
 /* Skills Section */
 .skills {
     background: #f8f9fa;
