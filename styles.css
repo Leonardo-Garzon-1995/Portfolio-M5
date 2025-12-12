@@ -330,6 +330,8 @@ body {
     color: rgba(255, 255, 255, 0.8);
 }
 
+
+
 .hero-title {
     font-size: clamp(2rem, 6vw, 5rem);
     font-weight: bold;
